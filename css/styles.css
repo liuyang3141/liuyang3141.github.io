@@ -150,4 +150,12 @@ body {
     [class*="col-"] {
         width: 100%;
     }
+
+    [class="linkedin"] {
+        width: 25px;
+    }
+
+    [class="github"] {
+        width: 50px;
+    }
 }
