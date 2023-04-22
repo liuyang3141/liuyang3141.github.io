@@ -39,57 +39,96 @@ iframe {
     margin: 0;
     padding: 0;
 }
-  
-.menu li {
-    padding: 5px;
-    text-align: center;
-    margin-bottom: 1px;
-    background-color: #5e6162;
-    color: #ffffff;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.menu li:hover {
-    background-color: #212020;
-}
 
 body {
     background-color:black;
-    color:white;
+    color:whitesmoke;
 }
 
-#student_info {
+.student_info {
     margin: 20px;
     padding: 0;
 }
 
-#linkedin {
+.linkedin {
     width:50px;
 }
 
-#github {
+.github {
     width:100px;
 }
 
-#prof {
+.prof {
     color:brown;
 }
 
-#para1 {
+.para1 {
     font: size 15vw;;
 }
 
-#resume {
+.resume {
     text-align: center;
 }
 
-#resume_text {
+.resume_text {
     text-align: left;
     margin: 5px;
 }
 
-#resume_year {
+.resume_year {
     float: right;
+}
+
+.menu_btn {
+    background: linear-gradient(to left bottom, rgb(249, 195, 35), rgb(124, 63, 35));
+
+    border: none;
+
+    padding: 10px 20px; /* top left */
+
+    border-radius: 5px;
+
+    margin: 2px;
+
+    font-size: 15px;
+
+    box-shadow: 2px 2px 2px 2px rgba(244, 174, 120, 0.3); /* left top right */
+
+    cursor: pointer; /* When we put our cursor on the button it changes to an index finger hand sign */
+
+    width: 100%;
+}
+
+.btn {
+    background: linear-gradient(to left bottom, rgb(249, 195, 35), rgb(124, 63, 35));
+
+    border: none;
+
+    padding: 5px 5px; /* top left */
+
+    border-radius: 5px;
+
+    margin: 2px;
+
+    font-size: 15px;
+
+    box-shadow: 2px 2px 2px 2px rgba(244, 174, 120, 0.3); /* left top right */
+
+    cursor: pointer; /* When we put our cursor on the button it changes to an index finger hand sign */
+}
+
+.video {
+    padding: 3px 3px; /* top left */
+
+    font-size: 15px;
+
+    background: rgb(124, 63, 35);
+
+    border-color: rgba(252, 182, 70, 0.5);
+
+    margin: 10px;
+
+    color:whitesmoke;
 }
 
 /* For desktop */
