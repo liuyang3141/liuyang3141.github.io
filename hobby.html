@@ -12,12 +12,12 @@
             <!-- Menu -->
             <div class="col-2 menu">
                 <ul>
-                    <!-- Main Page Link -->
-                    <li><a href="index.html">Home</a></li>
+                     <!-- Main Page Link -->
+                    <li><a href="index.html"><button class="menu_btn">Home</button></a></li>
                     <!-- Resume Page Link -->
-                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="resume.html"><button class="menu_btn">Resume</button></a></li>
                     <!-- Hobby Page Link -->
-                    <li><a href="hobby.html">Hobby</a></li>
+                    <li><a href="hobby.html"><button class="menu_btn">Hobby</button></a></li>
                 </ul>
             </div>
 
@@ -28,8 +28,8 @@
                 <iframe id="videoFrame" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                 <form>
-                    <label for="videos">Choose a video:</label>
-                    <select id="videos">
+                    <label class="video" for="videos">Choose a video:</label>
+                    <select class="video" id="videos">
                         <option value="0">Taking off from Zamperini airfield in Torrance, CA</option>
                         <option value="1">Landing in Zamperini airfield with normal approach</option>
                         <option value="2">Practicing hovering</option>
@@ -38,7 +38,7 @@
                         <option value="5">Practicing emergency procedures - full down autorotation in R44</option>
                         <option value="6">Practicing emergency procedures - full down autorotation in R22</option>
                     </select>
-                    <input type="button" value="Show selected video" onClick="returnIndex()">
+                    <input class="btn" type="button" value="Show selected video" onClick="returnIndex()">
                 </form>
             </div>        
         </div>
