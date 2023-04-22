@@ -101,6 +101,12 @@ body {
     color:black;
 }
 
+.ed_ac {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .btn {
     background: linear-gradient(to left bottom, rgb(249, 195, 35), rgb(124, 63, 35));
 
