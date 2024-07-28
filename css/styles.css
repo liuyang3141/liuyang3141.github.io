@@ -2,53 +2,49 @@
 .main-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 /* banner */
 .banner {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    background-color: red;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
 }
 
-/* set banner height */
-.face-tile {
-    flex: 0 0 200px;
+.face-pic {
+    flex-basis: 20%;
+    height: 200px;
+    object-fit: contain;
 }
 
-.bg-tile {
-    flex-grow: 2;
+/* container for matrix background and ascii code */
+.bg {
+    flex-basis: 80%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
 }
 
 .background-pic {
     height: 200px;
-    width:100%;
+    width: 100%;
     object-fit: cover;
 }
 
-* {
-    box-sizing: border-box;
+.bg-text {
+    width: 80%;
+    font-size: 25px;
+    margin: 0;
+    white-space: nowrap;
+    line-height: 250%;
+    position: absolute;
+    text-align: center;
 }
 
-[class*="col-"] {
-    float: left;
-    padding: 10px;
-}
 
 .row::after {
     content: "";
     clear: both;
     display: table;
-}
-
-img {
-    width: 100%;
-    height: auto;
 }
 
 a {
