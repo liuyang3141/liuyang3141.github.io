@@ -48,6 +48,12 @@ body {
 }
 
 @media (max-width: 320px) {
+    .bg {
+        flex-basis: 100%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        display: flex;
+    }
     .face-pic {
         flex-basis: 100px;
         height: 100px;
@@ -72,6 +78,12 @@ body {
 }
 
 @media (max-width: 481px) {
+    .bg {
+        flex-basis: 100%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        display: flex;
+    }
     .face-pic {
         flex-basis: 100px;
         height: 100px;
@@ -96,6 +108,12 @@ body {
 }
 
 @media (max-width: 769px) {
+    .bg {
+        flex-basis: 100%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        display: flex;
+    }
     .face-pic {
         flex-basis: 100px;
         height: 100px;
