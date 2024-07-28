@@ -18,7 +18,7 @@ body {
 
 .face-pic {
     flex-basis: 100px;
-    height: 100px;
+    height: 200px;
     object-fit: contain;
 }
 
@@ -31,19 +31,92 @@ body {
 }
 
 .background-pic {
-    height: 100px;
+    height: 200px;
     width: 100%;
     object-fit: cover;
 }
 
 .bg-text {
     width: 80%;
-    font-size: 0.8rem;
+    font-size: 1.8rem;
     margin: 0;
     white-space: nowrap;
     line-height: 250%;
     position: absolute;
     text-align: center;
+    top: 0%;
+}
+
+@media (max-width: 320px) {
+    .face-pic {
+        flex-basis: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+    .background-pic {
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .bg-text {
+        width: 80%;
+        font-size: 0.6rem;
+        margin: 0;
+        white-space: nowrap;
+        line-height: 250%;
+        position: absolute;
+        text-align: center;
+        top: 0%;
+    }
+}
+
+@media (max-width: 481px) {
+    .face-pic {
+        flex-basis: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+    .background-pic {
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .bg-text {
+        width: 80%;
+        font-size: 0.8rem;
+        margin: 0;
+        white-space: nowrap;
+        line-height: 250%;
+        position: absolute;
+        text-align: center;
+        top: 0%;
+    }
+}
+
+@media (max-width: 769px) {
+    .face-pic {
+        flex-basis: 100px;
+        height: 200px;
+        object-fit: contain;
+    }
+    .background-pic {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .bg-text {
+        width: 80%;
+        font-size: 1rem;
+        margin: 0;
+        white-space: nowrap;
+        line-height: 250%;
+        position: absolute;
+        text-align: center;
+        top: 0%;
+    }
 }
 
 /* menu */
