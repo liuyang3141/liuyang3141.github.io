@@ -74,12 +74,17 @@ iframe {
     color:black;
 }
 
-.linkedin {
-    width:50px;
+/* social media links */
+.my-links {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    margin-top: 5%;
 }
 
-.github {
-    width:100px;
+.my-links > a > img {
+    height: 10vh;
+    width: 100%;
 }
 
 

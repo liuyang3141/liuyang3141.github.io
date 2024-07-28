@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html>
-<head lang="en" dir="ltr">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <head lang="en" dir="ltr">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>        
-        $.getJSON("https://api.ipify.org?format=json", function(data) {
-             
-            // Setting text of element P with id gfg
-            $("#showIP").html(data.ip);
-        })
-    </script>
-</head>
+        <!-- Script to get IP of the visitor -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>        
+            $.getJSON("https://api.ipify.org?format=json", function(data) {
+                
+                // Setting text of element P with id gfg
+                $("#showIP").html(data.ip);
+            })
+        </script>
 
-<body>
-    <!-- Main Container-->
-     <div class="main-container">
-        <!-- Banner Picture -->
-        <div class="banner">
-            <img src="images/background.jpg" alt="Background">
-        </div>
+        <!-- Custom font from Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
 
-        <!-- Menu -->
-        <div>
-            <ul class="menu">
-                <!-- Main Page Link -->
-                <li><a href="index.html"><button class="menu_btn">Home</button></a></li>
-                <!-- Resume Page Link -->
-                <li><a href="resume.html"><button class="menu_btn">Resume</button></a></li>
-                <!-- Hobby Page Link -->
-                <li><a href="hobby.html"><button class="menu_btn">Hobby</button></a></li>
-            </ul>
-        </div>
+    <body>
+        <!-- Main Container-->
+        <div class="main-container">
+            <!-- Banner Picture -->
+            <div class="banner">
+                <img src="images/background.jpg" alt="Background">
+            </div>
+
+            <!-- Menu -->
+            <div>
+                <ul class="menu">
+                    <!-- Main Page Link -->
+                    <li><a href="index.html"><button class="menu_btn">Home</button></a></li>
+                    <!-- Resume Page Link -->
+                    <li><a href="resume.html"><button class="menu_btn">Resume</button></a></li>
+                    <!-- Hobby Page Link -->
+                    <li><a href="hobby.html"><button class="menu_btn">Hobby</button></a></li>
+                </ul>
+            </div>
 
             <!-- Text -->
-            <div class="col-10">
+            <div class="info">
                 <!-- My name -->
-                <h1>Yang Liu</h1>
+                <p class="name">Yang Liu</p>
 
                 <!-- Unorder list of student info -->
-                <h3>
-                    <ul class="student_info">
-                        <li>Bachelor of Science (B.S.), Computer Science</li>
-                        <li>California State University East Bay, Hayward, CA |  2023</li>
-                        <li>Magna Cum Laude</li>
-                    </ul>
-                </h3>
-
-                <!-- Random text -->
-                <p class="para1">Hello and welcome to my website user from IP <span id="showIP"></span>! It is currently under construction, but feel free to check out my helicopter flight training. Thanks for visiting!</p>
+                <ul class="student-info">
+                    <li>Bachelor of Science (B.S.), Computer Science</li>
+                    <li>California State University East Bay, Hayward, CA |  2023</li>
+                    <li>Magna Cum Laude</li>
+                </ul>
+                
+                <!-- Greeting -->
+                <p class="greeting">Hello and welcome to my website user from IP <span id="showIP"></span>! It is currently under construction, but feel free to check out my helicopter flight training. Thanks for visiting!</p>
             </div>
 
             <!-- LinkedIn and Github links -->
-            <p class="my_links">
+            <div class="my-links">
                 <a href="https://www.linkedin.com/in/yangliu3141" target="_blank"><img class="linkedin" src="images/linkedin.png" alt="LinkedIn"></a>
 
-                <a href="https://www.github.com/liuyang3141" target="_blank"><img class="github" src="images/github.png" alt="Github"></a> 
-            </p>
-     </div>
-
-    
-</body>
+                <a href="https://www.github.com/liuyang3141" target="_blank"><img class="github" src="images/github.png" alt="Github"></a>
+                
+                <a href="https://www.facebook.com/liuyang3141" target="_blank"><img class="facebook" src="images/facebook.png" alt="Github"></a>
+            </div>
+        </div>
+    </body>
 </html>
