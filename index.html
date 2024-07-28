@@ -6,62 +6,66 @@
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <script>        
         $.getJSON("https://api.ipify.org?format=json", function(data) {
-             
+            
             // Setting text of element P with id gfg
             $("#showIP").html(data.ip);
         })
     </script>
 
-    <!-- Banner Picture -->
-    <div class="col-12">
-        <div class="banner">
-            <img src="images/background.jpg" alt="Background">
-        </div>
+<body>
+    <div class="main-container">
         
-    </div>
 
-    <div class="row">
-        <!-- Menu -->
-        <div class="col-2 menu">
-            <ul>
-                <!-- Main Page Link -->
-                <li><a href="index.html"><button class="menu_btn">Home</button></a></li>
-                <!-- Resume Page Link -->
-                <li><a href="resume.html"><button class="menu_btn">Resume</button></a></li>
-                <!-- Hobby Page Link -->
-                <li><a href="hobby.html"><button class="menu_btn">Hobby</button></a></li>
-            </ul>
+        <!-- Banner Picture -->
+        <div class="banner">
+            <div class="face-tile"><img class="face-pic" src="./images/face.JPG" /></div>
+            <div class="bg-tile"><img class="background-pic" src="./images/matrix-bg.jpg" /></div>
         </div>
 
-        <!-- Text -->
-        <div class="col-10">
-            <!-- My name -->
-            <h1>Yang Liu</h1>
-
-            <!-- Unorder list of student info -->
-            <h3>
-                <ul class="student_info">
-                    <li>Senior @ CSUEB</li>
-                    <li>CS Major</li>
-                    <li>Graduating Spring 2023</li>
+        <div class="row">
+            <!-- Menu -->
+            <div class="col-2 menu">
+                <ul>
+                    <!-- Main Page Link -->
+                    <li><a href="index.html"><button class="menu_btn">Home</button></a></li>
+                    <!-- Resume Page Link -->
+                    <li><a href="resume.html"><button class="menu_btn">Resume</button></a></li>
+                    <!-- Hobby Page Link -->
+                    <li><a href="hobby.html"><button class="menu_btn">Hobby</button></a></li>
                 </ul>
-            </h3>
+            </div>
 
-            <!-- Random text -->
-            <p class="para1">Hello and welcome to my first webpage user from IP <span id="showIP"></span>! This is my final project for a web development class. Although this is a simple website, it has been fun to make. I will definitely be adding things to it in the future. I hope to get proficient enough with AWS that I can host my own website instead of relying on github. Please check out my hobby page, as it includes videos of me during my helicopter flight training. Thanks for visiting!</p>
+            <!-- Text -->
+            <div class="col-10">
+                <!-- My name -->
+                <h1>Yang Liu</h1>
+
+                <!-- Unorder list of student info -->
+                <h3>
+                    <ul class="student_info">
+                        <li>Senior @ CSUEB</li>
+                        <li>CS Major</li>
+                        <li>Graduating Spring 2023</li>
+                    </ul>
+                </h3>
+
+                <!-- Random text -->
+                <p class="para1">Hello and welcome to my first webpage user from IP <span id="showIP"></span>! This is my final project for a web development class. Although this is a simple website, it has been fun to make. I will definitely be adding things to it in the future. I hope to get proficient enough with AWS that I can host my own website instead of relying on github. Please check out my hobby page, as it includes videos of me during my helicopter flight training. Thanks for visiting!</p>
+            </div>
+
+            <!-- LinkedIn and Github links -->
+            <p class="my_links">
+                <a href="https://www.linkedin.com/in/yangliu3141" target="_blank"><img class="linkedin" src="images/linkedin.png" alt="LinkedIn"></a>
+
+                <a href="https://www.github.com/liuyang3141" target="_blank"><img class="github" src="images/github.png" alt="Github"></a> 
+            </p>
         </div>
 
-        <!-- LinkedIn and Github links -->
-        <p class="my_links">
-            <a href="https://www.linkedin.com/in/yangliu3141" target="_blank"><img class="linkedin" src="images/linkedin.png" alt="LinkedIn"></a>
-
-            <a href="https://www.github.com/liuyang3141" target="_blank"><img class="github" src="images/github.png" alt="Github"></a> 
-        </p>
     </div>
+    
 </body>
 </html>
