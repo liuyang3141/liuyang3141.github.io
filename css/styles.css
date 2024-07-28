@@ -1,7 +1,19 @@
+body {
+    background-color:black;
+    color:rgb(238, 238, 238);
+    font-family: "Rubik", sans-serif;
+}
+
 /* main container */
 .main-container {
     display: flex;
     flex-direction: column;
+}
+
+/* banner */
+.banner > img {
+    height: auto;
+    width: 100%;
 }
 
 /* menu */
@@ -13,35 +25,28 @@
     padding: 0;
 }
 
-.menu li {
+.menu > li {
     width: 33%;
 }
 
-
-* {
-    box-sizing: border-box;
+/* home page text */
+.name {
+    font-size: 3rem;
+    font-weight: 1000;
+    margin-bottom: 1%;
 }
 
-[class*="col-"] {
-    float: left;
-    padding: 10px;
+.student-info {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-size:20px;
+.greeting {
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 iframe {
@@ -69,27 +74,6 @@ iframe {
     color:black;
 }
 
-.banner {
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-
-body {
-    background-color:black;
-    color:whitesmoke;
-}
-
-.student_info {
-    margin: 20px;
-    padding: 0;
-}
-
-.para1 {
-    font: size 15vw;;
-}
-
 .linkedin {
     width:50px;
 }
@@ -98,11 +82,7 @@ body {
     width:100px;
 }
 
-.ed_ac {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
 
 .videoFrame {
     width: 100%;
@@ -151,6 +131,5 @@ body {
     height: 1400px;
     border: none;
     overflow-y: scroll;
-
 }
 
