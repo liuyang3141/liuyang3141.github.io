@@ -47,6 +47,7 @@ body {
     top: 0%;
 }
 
+/*
 @media (max-width: 320px) {
     .bg {
         flex-basis: 100%;
@@ -136,7 +137,7 @@ body {
         top: 0%;
     }
 }
-
+*/
 /* menu */
 .menu ul {
     display: flex;
