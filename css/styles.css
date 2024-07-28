@@ -61,7 +61,7 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     cursor: pointer; /* When we put our cursor on the button it changes to an index finger hand sign */
     color:rgb(255,255,255);
     flex: 1;
