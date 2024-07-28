@@ -98,11 +98,11 @@ body {
 @media (max-width: 769px) {
     .face-pic {
         flex-basis: 100px;
-        height: 200px;
+        height: 100px;
         object-fit: contain;
     }
     .background-pic {
-        height: 200px;
+        height: 100px;
         width: 100%;
         object-fit: cover;
     }
