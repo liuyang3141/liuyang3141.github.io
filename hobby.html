@@ -7,12 +7,16 @@
     </head>
 
     <body>
-        <div class="row">
+        <div class="main-container">
+            <!-- Banner Picture -->
+            <div class="banner">
+                <img src="images/background.jpg" alt="Background">
+            </div>
 
             <!-- Menu -->
-            <div class="col-2 menu">
-                <ul>
-                     <!-- Main Page Link -->
+            <div>
+                <ul class="menu">
+                    <!-- Main Page Link -->
                     <li><a href="index.html"><button class="menu_btn">Home</button></a></li>
                     <!-- Resume Page Link -->
                     <li><a href="resume.html"><button class="menu_btn">Resume</button></a></li>
@@ -22,7 +26,7 @@
             </div>
 
             <!-- Helicopter -->
-            <div class="col-10">
+            <div class="helicopter-container">
                 <h4>Videos Taken During My Helicopter Training</h4>
 
                 <iframe class="videoFrame" id="videoFrame" height="400" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -41,8 +45,8 @@
                     <input class="btn" type="button" value="Show selected video" onClick="returnIndex()">
                 </form>
             </div>        
-        </div>
         
-        <script src="javascript/hobby.js"></script>
+            <script src="javascript/hobby.js"></script>
+        </div> 
     </body>
 </html>
