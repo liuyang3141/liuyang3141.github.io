@@ -17,8 +17,8 @@ body {
 }
 
 .face-pic {
-    flex-basis: 200px;
-    height: 200px;
+    flex-basis: 100px;
+    height: 100px;
     object-fit: contain;
 }
 
@@ -31,14 +31,14 @@ body {
 }
 
 .background-pic {
-    height: 200px;
+    height: 100px;
     width: 100%;
     object-fit: cover;
 }
 
 .bg-text {
     width: 80%;
-    font-size: 25px;
+    font-size: 0.8rem;
     margin: 0;
     white-space: nowrap;
     line-height: 250%;
@@ -54,6 +54,19 @@ body {
     margin-top: 30px;
     padding: 0;
 }
+
+.menu_btn {
+    background: linear-gradient(to left bottom, rgb(0,39,6), rgb(0,255,0));
+    border: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer; /* When we put our cursor on the button it changes to an index finger hand sign */
+    color:rgb(255,255,255);
+    flex: 1;
+}
+
 .row::after {
     content: "";
     clear: both;
@@ -71,16 +84,7 @@ iframe {
     height: 480;
 }
 
-.menu_btn {
-    background: linear-gradient(to left bottom, rgb(0,39,6), rgb(0,255,0));
-    border: none;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    font-size: 20px;
-    cursor: pointer; /* When we put our cursor on the button it changes to an index finger hand sign */
-    color:rgb(255,255,255);
-}
+
 
 
 
