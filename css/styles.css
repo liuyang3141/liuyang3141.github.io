@@ -29,31 +29,6 @@ body {
     width: 33%;
 }
 
-/* home page text */
-.name {
-    font-size: 3rem;
-    font-weight: 1000;
-    margin-bottom: 1%;
-}
-
-.student-info {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    font-size: 1.5rem;
-}
-
-.greeting {
-    font-weight: 600;
-    font-size: 1.2rem;
-}
-
-iframe {
-    width: 640;
-    height: 480;
-}
-
 .menu_btn {
     background: linear-gradient(to left bottom, rgb(249, 195, 35), rgb(124, 63, 35));
 
@@ -74,6 +49,26 @@ iframe {
     color:black;
 }
 
+/* home page text */
+.name {
+    font-size: 3rem;
+    font-weight: 1000;
+    margin-bottom: 1%;
+}
+
+.student-info {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.greeting {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
 /* social media links */
 .my-links {
     display: flex;
@@ -87,11 +82,15 @@ iframe {
     width: 100%;
 }
 
-
-
+/* hobby page */
 .videoFrame {
     width: 100%;
     justify-content: center;
+}
+
+iframe {
+    width: 640;
+    height: 480;
 }
 
 .video {
@@ -110,7 +109,7 @@ iframe {
     width: 100%;
 }
 
-.btn {
+.hobby-btn {
     background: linear-gradient(to left bottom, rgb(249, 195, 35), rgb(124, 63, 35));
 
     border: none;
