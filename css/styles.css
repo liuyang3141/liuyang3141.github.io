@@ -17,7 +17,7 @@ body {
 }
 
 .face-pic {
-    flex-basis: 100px;
+    flex-basis: 20%;
     height: 200px;
     object-fit: contain;
 }
@@ -55,7 +55,7 @@ body {
         display: flex;
     }
     .face-pic {
-        flex-basis: 100px;
+        flex-basis: 20%;
         height: 100px;
         object-fit: contain;
     }
@@ -85,7 +85,7 @@ body {
         display: flex;
     }
     .face-pic {
-        flex-basis: 100px;
+        flex-basis: 20%;
         height: 100px;
         object-fit: contain;
     }
@@ -115,7 +115,7 @@ body {
         display: flex;
     }
     .face-pic {
-        flex-basis: 100px;
+        flex-basis: 20%;
         height: 100px;
         object-fit: contain;
     }
