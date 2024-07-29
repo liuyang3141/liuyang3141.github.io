@@ -8,12 +8,35 @@ body {
 .main-container {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* banner */
-.banner > img {
-    height: auto;
+.banner {
+    display: flex;
+}
+
+.banner img {
+    height: 20vh;
+    object-fit: cover;
     width: 100%;
+}
+
+.left {
+    flex-basis: 10%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    align-items: center;
+}
+
+.ascii {
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    font-size: 4vmin;
 }
 
 /* menu */
@@ -40,7 +63,7 @@ body {
 
     margin: 2px;
 
-    font-size: 15px;
+    font-size: 1.3rem;
 
     cursor: pointer; /* When we put our cursor on the button it changes to an index finger hand sign */
 
