@@ -23,6 +23,44 @@ body {
 }
 
 .left {
+    flex: 10%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 90%;
+    align-items: center;
+    margin: 0;
+}
+
+.ascii {
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    font-size: 4vmin;
+}
+
+/*
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.banner {
+    display: flex;
+}
+
+.banner img {
+    height: 20vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.left {
     flex-basis: 10%;
 }
 
@@ -38,6 +76,8 @@ body {
     position: absolute;
     font-size: 4vmin;
 }
+*/
+
 
 /* menu */
 .menu {
@@ -160,3 +200,47 @@ iframe {
     overflow-y: scroll;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .ascii {
+        font-family:'Courier New', Courier, monospace;
+        position: absolute;
+        font-size: 2.5vmin;
+        margin-top: 22%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .ascii {
+        font-family:'Courier New', Courier, monospace;
+        position: absolute;
+        font-size: 2.7vmin;
+        margin-top: 12%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .ascii {
+        font-family:'Courier New', Courier, monospace;
+        position: absolute;
+        font-size: 2.8vmin;
+        margin-top: 8%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .ascii {
+        font-family:'Courier New', Courier, monospace;
+        position: absolute;
+        font-size: 2.8vmin;
+        margin-top: 6%;
+    }
+}
+
+@media (min-width: 1201px) {
+    .ascii {
+        font-family:'Courier New', Courier, monospace;
+        position: absolute;
+        font-size: 2.8vmin;
+        margin-top: 3%;
+    }
+}
