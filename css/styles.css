@@ -23,7 +23,7 @@ body {
 .bg-container {
     display: grid;
     align-items: center;
-
+    width: 100%;
 }
 
 .matrix-bg {
