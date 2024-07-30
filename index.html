@@ -25,30 +25,34 @@
 
     <body>
         <!-- Main Container-->
-        <div class="main-container">
+        <div class="container-fluid">
              <!-- banner -->
-             <div class="banner">
-                <div class="banner-left">
-                    <img class="face-pic" src="./images/face.JPG" alt="face picture" />
+             <div class="row banner">
+                <div class="col-2 banner-left">
+                    <img class="face-pic img-fluid" src="./images/face.JPG" alt="face picture" />
                 </div>
-                <div class="banner-right">
-                    <div class="ascii">
-                        <p>
-                            01010111&nbsp;&nbsp;&nbsp;01101001&nbsp;&nbsp;&nbsp;01101100&nbsp;&nbsp;&nbsp;01101100&nbsp;&nbsp;&nbsp;00100000<br>
-                            01000011&nbsp;&nbsp;&nbsp;01101111&nbsp;&nbsp;&nbsp;01100100&nbsp;&nbsp;&nbsp;01100101&nbsp;&nbsp;&nbsp;00100000<br>
-                            01000110&nbsp;&nbsp;&nbsp;01101111&nbsp;&nbsp;&nbsp;01110010&nbsp;&nbsp;&nbsp;00100000&nbsp;&nbsp;&nbsp;00100100
-                        </p>
-                    </div>
-                    <div class="bg">
-                        <img class="matrix-bg" src="./images/matrix-bg.jpg" alt="matrix background" />
+                <div class="col-10 banner-right">
+                    <div class="image-container">
+                        <img class="matrix-bg" src="./images/matrix-bg.jpg" alt="Background image">
+                        <div class="text">
+                            <p>
+                                01010111&nbsp;&nbsp;&nbsp;01101001&nbsp;&nbsp;&nbsp;01101100&nbsp;&nbsp;&nbsp;01101100&nbsp;&nbsp;&nbsp;00100000<br>
+                                01000011&nbsp;&nbsp;&nbsp;01101111&nbsp;&nbsp;&nbsp;01100100&nbsp;&nbsp;&nbsp;01100101&nbsp;&nbsp;&nbsp;00100000<br>
+                                01000110&nbsp;&nbsp;&nbsp;01101111&nbsp;&nbsp;&nbsp;01110010&nbsp;&nbsp;&nbsp;00100000&nbsp;&nbsp;&nbsp;00100100
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+           
             <!-- home button-->
-            <div class="home-button-container">
-                <a href="./index.html"><button class="home-button"><img class="home-icon" src="./images/house-door.svg"/></button></a>
+            <div class="row home-button-container">
+                <div class="col-12">
+                    <a href="./index.html"><button class="home-button"><img class="home-icon" src="./images/house-door.svg"/></button></a>
+                </div>
             </div>
+           
+            
             
             
 
