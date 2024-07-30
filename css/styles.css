@@ -33,6 +33,7 @@ body {
 }
 
 .text {
+    order: 1;
     grid-area: 1 / 1;
 }
 
