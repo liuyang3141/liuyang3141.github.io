@@ -35,6 +35,7 @@ body {
 .text {
     order: 1;
     grid-area: 1 / 1;
+    font-size: 1.5vh;
 }
 
 /* home button */
