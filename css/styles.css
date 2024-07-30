@@ -47,6 +47,25 @@ body {
     object-fit: cover;
 }
 
+/* home button */
+.home-button-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-button {
+    background-color: black;
+    border: 0;
+}
+
+.home-icon {
+    background-color: black;
+    height: 10vh;
+}
+
+
 /* menu */
 .menu {
     display: flex;
