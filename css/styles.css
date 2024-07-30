@@ -22,19 +22,17 @@ body {
 
 .bg-container {
     display: grid;
-    width: auto;
-    height: 10vh;
 }
 
 .matrix-bg {
     order: 0;
-    grid-area: 1/1;
+    grid-area: 1 / 1;
     height: 10vh;
     object-fit: cover;
 }
 
 .text {
-    grid-area: 1/1;
+    grid-area: 1 / 1;
 }
 
 /* home button */
