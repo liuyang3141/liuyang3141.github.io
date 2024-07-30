@@ -36,6 +36,7 @@ body {
     order: 1;
     grid-area: 1 / 1;
     font-size: 1.5vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* home button */
