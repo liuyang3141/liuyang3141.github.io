@@ -43,11 +43,8 @@ body {
 }
 
 /* home button */
-.home-button-container {
-    display:flex;
+.home-button-row {
     justify-content: center;
-    align-items: center;
-
 }
 
 .home-button {
