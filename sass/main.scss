@@ -1,0 +1,20 @@
+// custom variables
+$body-color:  #b3b3b3;
+
+
+// we have to import these functions and variables
+// in order to make the custom map work
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+
+// adding our own variables with a map
+$custom-theme-colors: (
+    "monkey-pink": #fa66a1,
+);
+
+// merge our theme with the original theme-colors map, then assign it back to $theme-colors
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

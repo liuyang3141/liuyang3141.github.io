@@ -43,16 +43,17 @@ body {
 }
 
 /* home button */
-.home-button-row {
+.nav-buttons-row {
     justify-content: center;
 }
 
-.home-button {
+.nav-buttons {
     background-color: black;
     border: 0;
 }
 
-.home-icon {
+.nav-icons {
+
     background-color: black;
     height: 5vh;
 }
@@ -126,7 +127,6 @@ body {
 
 /* hobby page */
 .videoFrame {
-    width: 100%;
     justify-content: center;
 }
 
@@ -147,8 +147,6 @@ iframe {
     margin: 10px;
 
     color:whitesmoke;
-
-    width: 100%;
 }
 
 .hobby-btn {
@@ -171,7 +169,7 @@ iframe {
     color:black;
 }
 
-/* Resume page */
+/* resume page */
 #resume_iframe {
     width: 100%;
     height: 90vh;
