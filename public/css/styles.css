@@ -8,11 +8,7 @@ body {
 
 
 /* banner */
-.banner-left {
-    padding: 0;
-}
-
-.banner-right {
+.banner {
     padding: 0;
 }
 
@@ -26,12 +22,11 @@ body {
     width: 100%;
 }
 
-.matrix-bg {
+#matrix-canvas {
     order: 0;
     grid-area: 1 / 1;
     height: 10vh;
     width: 100%;
-    object-fit: cover;
 }
 
 .text {
@@ -121,7 +116,7 @@ body {
 }
 
 .my-links > a > img {
-    height: 10vh;
+    height: 5vh;
     width: 100%;
 }
 
